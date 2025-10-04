@@ -1,0 +1,67 @@
+# --------------------
+# Node.js
+# --------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --------------------
+# Environment Files
+# --------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --------------------
+# Build / Output
+# --------------------
+dist/
+build/
+.vite/
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# OS Files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# --------------------
+# Others
+# --------------------
+*.bak
+*.tmp
+*.temp
+*.orig
+
+# --------------------
+# Uploaded files
+# --------------------
+uploads/

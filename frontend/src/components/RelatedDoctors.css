@@ -1,0 +1,135 @@
+/* Container */
+.top-doctors-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.top-doctors-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Subtitle */
+.top-doctors-subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Doctor Card */
+.doctor-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.doctor-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Highlight first row with blue border */
+.highlight-border {
+  border: 1.5px solid #3b82f6;
+}
+
+/* Unavailable card */
+.unavailable-card {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Doctor Image */
+.doctor-image {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Availability */
+.availability {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+/* Dot styles */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Available */
+.availability.available {
+  color: #22c55e;
+}
+.availability.available .dot {
+  background-color: #22c55e;
+}
+
+/* Unavailable */
+.availability.unavailable {
+  color: #9ca3af; /* gray-400 */
+}
+.availability.unavailable .dot {
+  background-color: #9ca3af; /* gray-400 */
+}
+
+/* Name & Specialty */
+.doctor-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.doctor-speciality {
+  font-size: 14px;
+  color: #777;
+}
+
+/* More Button */
+.more-btn-wrapper {
+  margin-top: 30px;
+}
+
+.more-btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f3f3f3;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.more-btn:hover {
+  background-color: #e0e0e0;
+}
