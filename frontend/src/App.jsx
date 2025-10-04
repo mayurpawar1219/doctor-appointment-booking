@@ -11,7 +11,7 @@ import MyProfile from './pages/MyProfile.jsx';
 import MyAppointments from './pages/MyAppointments.jsx';
 import Appointment from './pages/Appointment.jsx';
 import PaymentSuccess from './pages/PaymentSuccess.jsx';  // <-- Added here
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
